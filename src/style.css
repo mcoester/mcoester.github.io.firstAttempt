@@ -1,0 +1,13 @@
+* {
+    font-family: system-ui , sans-serif;
+}
+
+header {
+    text-align: center;
+}
+
+.centerbox {
+    width: 480px;
+    margin: 0 auto;
+    text-align: center;
+}
