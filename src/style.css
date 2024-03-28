@@ -1,14 +1,83 @@
 * {
-    font-family: system-ui , sans-serif;
-    color: blue;
+    font-family: "Lucida Console", Courier, monospace;
+    color: white;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(45deg, hsl(216, 75%, 9%), hsl(216, 83.58%, 19.38%));
 }
 
 header {
-    text-align: center;
+    position: sticky;
+    top: 10px;
 }
 
+.headercontent {
+    display: inline-block; 
+}
+
+.navbar {
+    float: right;
+    margin: 10px;
+    padding-top: 8px;
+    padding-right: 15px;
+}
+
+h1.headercontent a {
+    text-decoration: none;
+}
+
+h1.headercontent {
+    margin: 10px;
+    padding: 0px;
+}
+
+#mainbox {
+    width: 800px;
+    margin-top: 300px;
+    margin-bottom:0px;
+    margin-left: 300px;
+}
+
+#maintitle {
+    font-size: 45px;
+    font-weight: 800;
+    margin-bottom: 0;
+    margin-top: 0;
+    padding: 0;
+}
+
+.maintext {
+    padding: 0;
+    margin-bottom: 10px;
+    margin-top: 0px;
+    font-size: small;
+}
+
+.first {
+    color:rgb(255, 235, 59);
+}
+
+
 .centerbox {
-    width: 480px;
-    margin: 0 auto;
-    text-align: center;
+    width: 800px;
+    margin-left: 300px;
+    margin-top: 600px;
+}
+
+.centerbox img {
+    width: 150px;
+    height: 200px;
+    border-radius: 50%;
+    display: inline-block;
+    position: relative;
+}
+
+#contentaboutme {
+    display: inline-block;
+    width: fit-content;
+    position: relative;
+    margin-left: 10px;
 }
