@@ -1,6 +1,7 @@
 * {
     font-family: "Lucida Console", Courier, monospace;
     color: white;
+    box-sizing: border-box;
 }
 
 body {
@@ -11,7 +12,14 @@ body {
 
 header {
     position: sticky;
-    top: 10px;
+    top: 0px;
+    right: 5px;
+    left: 5px;
+    border: solid;
+    border-color:  hsl(216, 83.58%, 19.38%);
+    border-width: 1px;
+    border-radius: 5%;
+    background-color:hsl(216, 83.58%, 19.38%);
 }
 
 .headercontent {
@@ -32,6 +40,10 @@ h1.headercontent a {
 h1.headercontent {
     margin: 10px;
     padding: 0px;
+}
+
+h2 {
+    padding-top: 70px;
 }
 
 #mainbox {
@@ -65,19 +77,48 @@ h1.headercontent {
     width: 800px;
     margin-left: 300px;
     margin-top: 600px;
+    margin-bottom: 100px;
+}
+
+.centerbox .imgbox{
+    width: 160px;
+    height:210px;
+    float: left;
 }
 
 .centerbox img {
     width: 150px;
     height: 200px;
-    border-radius: 50%;
-    display: inline-block;
-    position: relative;
+    border-radius: 50%; 
 }
 
 #contentaboutme {
+    width: 800px;
+}
+
+#projektbox {
+    margin-top: 80px;
+    margin-left: 70px;
+}
+
+td {
+    width: 200px;
+    height: 50px;
+}
+
+#table1 {
     display: inline-block;
-    width: fit-content;
-    position: relative;
-    margin-left: 10px;
+}
+
+#table2 {
+    display: inline-block;
+}
+
+#table1 td {
+    border-right: solid;
+    padding-right: 100px;
+}
+
+#table2 td {
+    padding-left: 100px;
 }
